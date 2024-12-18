@@ -72,6 +72,7 @@ Save the following content as `mockoon-demo.json`:
 
 ```json
 {
+  "lastMigration": 33,
   "name": "Demo API",
   "routes": [
     {
