@@ -1,0 +1,16 @@
+{  
+  "lastMigration": 33,
+  "name": "Demo API",
+  "routes": [
+    {
+      "method": "get",
+      "responses": [
+        {
+          "body": "{\"service\": \"Demo API\", \"baseUrl\": \"{{baseUrl}}\"}",
+          "statusCode": 200,
+          "headers": [{"key": "Content-Type", "value": "application/json"}]
+        }
+      ]
+    }
+  ]
+}
